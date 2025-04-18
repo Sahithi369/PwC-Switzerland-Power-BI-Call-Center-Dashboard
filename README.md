@@ -24,3 +24,17 @@ Possible KPIs include (to get you started, but not limited to):-
 3] Calls by time
 4] Average speed of answer
 5] Agent’s performance quadrant -> average handle time (talk duration) vs calls answered.
+<img width="716" alt="image" src="https://github.com/user-attachments/assets/4e7ebbd7-42cf-4133-8796-7437cf82add1" />
+
+DAX commands used:
+Agent Performance Score = AVERAGE('Sheet1'[Satisfaction rating])
+
+Avg_Satisfaction = AVERAGE('Sheet1'[Satisfaction rating])
+
+Avg_Speed_of_Answer = AVERAGE('Sheet1'[Speed of answer in seconds])
+
+Call Answer Rate = DIVIDE(COUNTROWS(FILTER('Sheet1', 'Sheet1'[Answered (Y/N)] = "Answered")), COUNTROWS('Sheet1'))
+
+Calls_Abandoned = COUNTROWS(FILTER('Sheet1', 'Sheet1'[Answered (Y/N)] = "N"))
+
+Total_calls_Answered = COUNTROWS(FILTER('Sheet1', 'Sheet1'[Answered (Y/N)] = "Y"))
