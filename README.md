@@ -1,1 +1,2 @@
 # PwC-Switzerland-Power-BI-Call-Center-Dashboard
+The present scenario case focuses on the call center trends. We analyze the amount of incoming calls, call agent performance, response time, call duartion, daily and hourly trends, including customer satisfication ratings. The dashboard defines key KPI's which impact the customer satisfaction as well as the productivity of the call agents. The purpose is to uncover potential ways of tracking efficency and enhancement.
